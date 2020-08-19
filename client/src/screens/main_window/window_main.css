@@ -1,0 +1,112 @@
+/* #props, #props:hover, #props:focus {
+    background-color: salmon;
+} */
+#props, #props:focus,
+#props:active, #props:hover,
+#add_contact, #add_contact:focus,
+#add_contact:active, #add_contact:hover {
+    /* background: #FFC93E; */
+    background: #FFC400;
+    border-style: hidden;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    /* color: black; */
+    color: #081D3C;
+    font-size: 14px;
+}
+
+#search_contact {
+    opacity: 0.9;
+    margin: 2px;
+    margin-bottom: 0px;
+    /* background-color: transparent; */
+    background: white;
+    border: none;
+    border-bottom: 1px solid #6d6d6d;
+    /* color: #6d6d6d; */
+    color: #081D3C;
+}
+
+#search_contact:focus, #search_contact:active,
+#search_contact:hover {
+    opacity: 0.9;
+    font: 13px sans-serif;
+    /* color: black; */
+    color: #081D3C;
+    border-bottom: 1px solid black;
+    margin: 2px;
+    box-shadow: none;
+}
+
+#props, #props:focus,
+#props:active, #props:hover {
+    border-left: 1px solid rgba(176, 173, 173, 0.934);
+    border-radius: 0;
+}
+#add_contact, #add_contact:focus,
+#add_contact:active, #add_contact:hover {
+    border-right: 1px solid rgba(176, 173, 173, 0.934);
+    border-radius: 0;
+}
+#search_contact {
+    color: rgba(176, 173, 173, 0.934);
+    font-size: 11px;
+}
+
+
+
+#contact, #contact:focus{
+    /* color: snow;
+    background: rgb(28, 27, 27); */
+    /* border-bottom: 1px solid silver; */
+    /* padding: 10px; */
+    /* box-shadow: none;
+    border-style: outset; */
+    background: #ecbd25;
+    border: none;
+    border-bottom: 0.8px solid black;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#contact:hover{
+    background-color:  orange;
+    color: snow;
+    box-shadow: none;
+    border-style: outset;
+    border-width: 1px;
+    text-shadow: none;
+    /* box-shadow: none;
+    border-width: 1px;
+    text-shadow: none; */
+}
+
+#message{
+    /* font-family:monospace; */
+    color: snow;
+    background: rgb(28, 27, 27);
+    box-shadow: none;
+    border-style: outset;
+    border-width: 1px;
+    text-shadow: none;
+}
+
+
+
+#window {
+    /* background: #FFC93E; */
+    background: #FFC400;
+    opacity: 0.9;
+}
+
+#contacts_box, #message_box {
+    /* background:  #FFC93E; */
+    background: #FFC400;
+}
+
+#contact_info, #chat_bottom {
+    background: rgb(244, 181, 23);
+}

@@ -1,0 +1,10 @@
+#notify_available, #notify_available:focus,
+#notify_available:active, #notify_available:hover {
+    background: #eb4034;
+    border: none;
+    border-bottom: 0.8px solid black;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+}

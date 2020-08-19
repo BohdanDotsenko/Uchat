@@ -1,0 +1,10 @@
+#notify_disable, #notify_disable:focus,
+#notify_disable:active, #notify_disable:hover {
+    background: #ecbd25;
+    border: none;
+    border-bottom: 0.8px solid black;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+}

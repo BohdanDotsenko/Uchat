@@ -1,0 +1,57 @@
+
+#logo_text, #sign_up_text {
+    font: 18px sans-serif;
+}
+
+#login_entry, #password_entry,
+#first_name, #last_name, #email {
+    /* background-color: transparent; */
+    background: white;
+    border: none;
+    border-bottom: 1px solid #6d6d6d;
+    /* color: #6d6d6d; */
+    color: #081D3C;
+}
+
+#login_entry:focus, #password_entry:focus,
+#first_name:focus, #last_name:focus, #email:focus {
+    font: 13px sans-serif;
+    /* color: black; */
+    color: #081D3C;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+}
+
+#info_text {
+    transition: all 1s ease-out;
+    font: 11px sans-serif;
+}
+
+#back_button, #back_button:focus,
+#back_button:active, #back_button:hover {
+    font-size: 18px;
+    border: none;
+	outline: none;
+    box-shadow: none;
+}
+
+#next_button, #next_button:focus,
+#next_button:active, #next_button:hover {
+    border: none;
+	outline: none;
+    box-shadow: none;
+}
+
+#sign, #sign:focus,
+#sign:active, #sign:hover {
+    /* background: #ecbd25; */
+    background: white;
+    border-radius: 20px;
+	outline: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#profile_photo {
+    background: white;
+}
